@@ -1,0 +1,239 @@
+	html,body{
+		margin:0;
+		padding: 0;
+		border: 0;
+		font-family: "segoe- UI",sans-serif;
+		line-height: 110%;
+		font-size: 95%;
+	}
+	div,h1,h2,h3,h4,h5,h6,ul,li,ol,table,th,td,tr,p,img,a,span,br{
+		margin:0;
+		padding: 0;
+		border: 0;
+	}
+	a,p,h1,h2,h3,h4,h5,h6,span{
+		font-family: "segoe- UI",sans-serif;
+		line-height: 110%;
+		font-size: 100%;
+		color: darkblue;
+	}
+	a{
+		text-decoration: none;
+	}
+	li{
+		text-decoration: none;
+		list-style: none;
+	}
+	.wrapper{
+		width:100%;
+	}
+	.container{
+		width:940px;
+		margin:0px auto;
+	}
+
+/* ==========================================================================
+   		HEADER
+   ========================================================================== */
+/* ====================
+    title
+   ==================== */
+	#header-wrapper{
+		height:100%;
+	}
+
+	#title-wrapper{
+		height:66px;
+		background-color: #336699;
+	}
+
+	#title{
+		height: 66px;
+		margin:0px auto;
+	}
+
+	a#title-brain{
+		color:#FFFFFF;
+	}
+
+	h1,span#title-brain{
+		padding-top: 16px;
+	}
+
+	h1#title-brain{
+		font-weight: bold;
+		font-size: 30px;
+	}
+
+	span#title-brain{
+		font-weight: bold;
+		font-size: 20px;
+		color:red;
+	}
+
+/* ====================
+    login
+   ==================== */
+	span#login{
+		float: right;
+		position: relative;
+		top:0px;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgb(50,50,70);
+		border: 2px solid rgb(200,200,200);
+		border-radius: 4px;
+		padding: 5px;
+		background-color:#C6E3F9;
+	}
+
+
+
+/* ====================
+    main menu
+   ==================== */
+
+	#menu-wrapper{
+		height:40px;
+		background-color: #D9F2F2;
+	}
+
+	#menu{
+		height: auto;
+	}
+
+	li.menu-items{
+		margin-top: 10px;
+		margin-right: 48px;
+		float: left;
+		font-weight: bolder; 	
+	}
+
+/* ====================
+    sub menu
+   ==================== */
+
+	#sub-menu-wrapper{
+		height: 35px;
+		background-color:#D9F2F2;
+	} 
+
+	#sub-menu{
+		border-top:solid #336699 2px;
+	}
+
+
+
+
+/* ==========================================================================
+  		PAGE CONTENT
+   ========================================================================== */
+	#page-wrapper{
+		margin-top: 0px;
+		height: auto;
+	}
+
+
+
+
+
+/* ==========================================================================
+   		FOOTER
+   ========================================================================== */
+
+/* ====================
+    footer main menu
+   ==================== */
+
+	#footer-menu-wrapper{
+		height:47px;
+		margin-top:10px;
+		background-color: #E6E6E6;
+	}
+
+	li.menu-item-footer{
+		font-size: 13px;
+		font-weight: normal;
+		color:#000000;
+		margin-top: 10px;
+		margin-right: 30px;
+		float: left; 	
+	}
+
+/* ====================
+    footer sub menu
+   ==================== */
+	#footer-bottom-wrapper{
+		height:20px;
+		background-color: #999999;
+	}
+
+	p#footer-bottom{
+		padding-top: 5px;
+		text-align: center;
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+/* ===============	END OF INDEX PAGE STYLES   ===============	*/
+
+
+
+/* ==========================================================================
+   		LOGIN PAGE and REGISTER PAGE STYLES
+   ========================================================================== */
+
+div#sign-in-wrapper{
+     /*padding:100px auto auto auto;*/
+    margin:127px 0;
+}
+
+div#reg-wrapper{
+	padding-top : 20px;
+	margin-bottom: 38px; 
+}
+
+div#sign-in-content,div#reg-content{
+     width:400px;
+     height: auto;
+     padding:15px 15px 15px 15px ;
+     margin:0px auto 0px auto ;
+     border:2px solid rgb(30,30,100);
+     border-radius:5px;
+     background-color: rgb(230,230,250);
+}
+td.sign-in-lable,td.reg-lable{
+     width:100px;
+     float:left;
+     padding:15px 0;
+     font-weight: 700;
+}
+td.sign-in-input,td.reg-input{
+     width:130px;
+     float:right;
+     padding: 15px 0;
+}
+div#sign-in-button,div#reg-button{
+     width:150px;
+     margin:0 auto;
+}
+input#sign-in-button,input#reg-button{
+	width: 100px;
+	height: 30px;
+	padding: 0;
+	margin: 10px 0;
+	border: 1px solid rgb(10,10,23);
+	border-radius: 5px;
+	background-color: rgb(200,200,250);
+	font-weight: bolder;
+	color: #EF0101;
+}
+p#forgot-password,p#register{
+	margin: 5px 0;
+    font-size: 13px;
+}
+a#register{
+	font-size:15px;
+	font-weight: bold;
+	color:rgb(233,30,30);;
+}

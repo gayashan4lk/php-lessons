@@ -1,0 +1,70 @@
+/* ********  	ABDUL KALAM QUOTE	********* */
+#abdul-kalam-quote{
+	margin-top: 20px;
+	height: 250px;
+	background-color: #4D4D4D;
+}
+#abdul-kalam-quote-inner{
+	height: 214px ;
+	width:904px; 
+	margin:0;
+	background-color:#E6E6E6;
+	position: relative;
+	top:18px;
+	left:18px;
+}
+#quote-container{
+	width:500px;
+	padding:41px 20px 10px 186px;	
+}
+p#quote{
+	font-family: "Segoe UI" , sans-serif;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 27px;
+	text-align: center;
+}
+.quote-name{
+	text-align: right;
+	font-family: "tahoma",serif;
+}
+h5#quote-name{
+	margin-top:10px; 
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 20px;
+}	
+h6#quote-name{
+	font-weight: 500;
+	font-size: 11px;
+}
+/* ********  	LINK BOXES	********* */
+#link-box{
+	margin-top:20px;
+	margin-bottom: 10px; 
+}
+table{
+	border-collapse: collapse;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+td.box-links{
+	width:288px;
+	height: 258px;
+	background-color: #E6E6E6;
+	display: list-item;
+	float: left;
+	margin-right: 37px;
+	list-style: none inside none;
+	border-radius: 3px;
+}
+#download{
+	margin-right: 0px;
+}
+.titles{
+	margin: 10px;
+	font-family: "Segoe UI" , sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
